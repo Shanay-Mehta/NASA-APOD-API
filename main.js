@@ -9,9 +9,9 @@ let crntDate;
 let month;
 let year;
 function dates(){
-crntDate=myDate.getDate();
-month=(myDate.getMonth())+1;
-year=myDate.getFullYear();
+crntDate=myDate.getUTCDate();
+month=(myDate.getUTCMonth())+1;
+year=myDate.getUTCFullYear();
 };
 let func=async()=>{
   let response=await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${year}-${month}-${crntDate}`);
@@ -54,3 +54,5 @@ next.addEventListener("click",()=>{
 })
 dates();
 display();
+// center everything
+// add styles
