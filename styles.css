@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+a,
+p,
+input,
+label,
+button,
+div,
+footer {
+  font-family: "Quicksand", sans-serif;
+}
+img {
+  width: 500px;
+  height: 440px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+img.logo {
+  height: 80px;
+  width: 100px;
+  transform: translateX(400px);
+}
+h1.imgHding {
+  transform: translateX(80px);
+  width: 480px;
+}
