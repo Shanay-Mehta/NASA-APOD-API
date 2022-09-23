@@ -59,5 +59,3 @@ next.addEventListener("click", () => {
 });
 dates();
 display();
-// center everything
-// add styles
